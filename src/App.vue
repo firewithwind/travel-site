@@ -23,7 +23,7 @@ export default {
     return {
         navList: [
             {
-                route: 'Index',
+                route: '',
                 name: '首页'
             },
             {
@@ -88,6 +88,7 @@ export default {
     padding: 0 15px;
     font-weight: bold;
     color: #2c3e50;
+    box-sizing: border-box;
 }
 .nav-item:hover {
     color: #409EFF;
